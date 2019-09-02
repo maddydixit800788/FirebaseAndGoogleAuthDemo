@@ -3,27 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56573CD31A892B9328B8EED /* libPods-FirebaseAuthDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C38FA17887058B359A5ABF9 /* libPods-FirebaseAuthDemo.a */; };
+		A906C7A0231CDB9B0055F76C /* iphone_tone1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C78F231CDB980055F76C /* iphone_tone1.mp3 */; };
+		A906C7A1231CDB9B0055F76C /* iphone_tone3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C790231CDB980055F76C /* iphone_tone3.mp3 */; };
+		A906C7A2231CDB9B0055F76C /* ooh_aina_nai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C791231CDB980055F76C /* ooh_aina_nai.mp3 */; };
+		A906C7A3231CDB9B0055F76C /* iphone_7_remix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C792231CDB980055F76C /* iphone_7_remix.mp3 */; };
+		A906C7A4231CDB9B0055F76C /* run_away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C793231CDB980055F76C /* run_away.mp3 */; };
+		A906C7A5231CDB9B0055F76C /* iphone_tone4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C794231CDB990055F76C /* iphone_tone4.mp3 */; };
+		A906C7A6231CDB9B0055F76C /* naalo_chilipi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C795231CDB990055F76C /* naalo_chilipi.mp3 */; };
+		A906C7A7231CDB9B0055F76C /* nokia_n91.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C796231CDB990055F76C /* nokia_n91.mp3 */; };
+		A906C7A8231CDB9B0055F76C /* mission_impossible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C797231CDB990055F76C /* mission_impossible.mp3 */; };
+		A906C7A9231CDB9B0055F76C /* shayari_ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C798231CDB9A0055F76C /* shayari_ringtone.mp3 */; };
+		A906C7AA231CDB9B0055F76C /* bird_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C799231CDB9A0055F76C /* bird_tone.mp3 */; };
+		A906C7AB231CDB9B0055F76C /* dj_snake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79A231CDB9A0055F76C /* dj_snake.mp3 */; };
+		A906C7AC231CDB9B0055F76C /* iphone_dhol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79B231CDB9A0055F76C /* iphone_dhol.mp3 */; };
+		A906C7AD231CDB9B0055F76C /* lai_lai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79C231CDB9A0055F76C /* lai_lai.mp3 */; };
+		A906C7AE231CDB9B0055F76C /* hiyonat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79D231CDB9B0055F76C /* hiyonat.mp3 */; };
+		A906C7AF231CDB9B0055F76C /* iphone_tone2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79E231CDB9B0055F76C /* iphone_tone2.mp3 */; };
+		A906C7B0231CDB9B0055F76C /* romantic_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A906C79F231CDB9B0055F76C /* romantic_tone.mp3 */; };
 		A907F7D0231243F100FA39FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907F7CF231243F100FA39FE /* AppDelegate.swift */; };
-		A907F7D2231243F100FA39FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907F7D1231243F100FA39FE /* ViewController.swift */; };
+		A907F7D2231243F100FA39FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907F7D1231243F100FA39FE /* LoginViewController.swift */; };
 		A907F7D5231243F100FA39FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A907F7D3231243F100FA39FE /* Main.storyboard */; };
 		A907F7D8231243F100FA39FE /* FirebaseAuthDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A907F7D6231243F100FA39FE /* FirebaseAuthDemo.xcdatamodeld */; };
 		A907F7DA231243F300FA39FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A907F7D9231243F300FA39FE /* Assets.xcassets */; };
 		A907F7DD231243F300FA39FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A907F7DB231243F300FA39FE /* LaunchScreen.storyboard */; };
+		A907F7E723125E7E00FA39FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A907F7E623125E7E00FA39FE /* GoogleService-Info.plist */; };
+		A907F7E9231275FB00FA39FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907F7E8231275FB00FA39FE /* MainViewController.swift */; };
+		A907F7EB2312922500FA39FE /* ToneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A907F7EA2312922500FA39FE /* ToneListViewController.swift */; };
+		A935F0AF2312F82F00401DA3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935F0AD2312F82F00401DA3 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C38FA17887058B359A5ABF9 /* libPods-FirebaseAuthDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseAuthDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A906C78F231CDB980055F76C /* iphone_tone1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_tone1.mp3; sourceTree = "<group>"; };
+		A906C790231CDB980055F76C /* iphone_tone3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_tone3.mp3; sourceTree = "<group>"; };
+		A906C791231CDB980055F76C /* ooh_aina_nai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ooh_aina_nai.mp3; sourceTree = "<group>"; };
+		A906C792231CDB980055F76C /* iphone_7_remix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_7_remix.mp3; sourceTree = "<group>"; };
+		A906C793231CDB980055F76C /* run_away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = run_away.mp3; sourceTree = "<group>"; };
+		A906C794231CDB990055F76C /* iphone_tone4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_tone4.mp3; sourceTree = "<group>"; };
+		A906C795231CDB990055F76C /* naalo_chilipi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = naalo_chilipi.mp3; sourceTree = "<group>"; };
+		A906C796231CDB990055F76C /* nokia_n91.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nokia_n91.mp3; sourceTree = "<group>"; };
+		A906C797231CDB990055F76C /* mission_impossible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mission_impossible.mp3; sourceTree = "<group>"; };
+		A906C798231CDB9A0055F76C /* shayari_ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shayari_ringtone.mp3; sourceTree = "<group>"; };
+		A906C799231CDB9A0055F76C /* bird_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird_tone.mp3; sourceTree = "<group>"; };
+		A906C79A231CDB9A0055F76C /* dj_snake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dj_snake.mp3; sourceTree = "<group>"; };
+		A906C79B231CDB9A0055F76C /* iphone_dhol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_dhol.mp3; sourceTree = "<group>"; };
+		A906C79C231CDB9A0055F76C /* lai_lai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lai_lai.mp3; sourceTree = "<group>"; };
+		A906C79D231CDB9B0055F76C /* hiyonat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiyonat.mp3; sourceTree = "<group>"; };
+		A906C79E231CDB9B0055F76C /* iphone_tone2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_tone2.mp3; sourceTree = "<group>"; };
+		A906C79F231CDB9B0055F76C /* romantic_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = romantic_tone.mp3; sourceTree = "<group>"; };
 		A907F7CC231243F100FA39FE /* FirebaseAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A907F7CF231243F100FA39FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A907F7D1231243F100FA39FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A907F7D1231243F100FA39FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A907F7D4231243F100FA39FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A907F7D7231243F100FA39FE /* FirebaseAuthDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirebaseAuthDemo.xcdatamodel; sourceTree = "<group>"; };
 		A907F7D9231243F300FA39FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A907F7DC231243F300FA39FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A907F7DE231243F300FA39FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A907F7E623125E7E00FA39FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A907F7E8231275FB00FA39FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A907F7EA2312922500FA39FE /* ToneListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneListViewController.swift; sourceTree = "<group>"; };
+		A935F0AD2312F82F00401DA3 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C1AFAD7880F651FEA356E5B3 /* Pods-FirebaseAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthDemo/Pods-FirebaseAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5F479340A0FBD323CB969C /* Pods-FirebaseAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthDemo/Pods-FirebaseAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56573CD31A892B9328B8EED /* libPods-FirebaseAuthDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AF926E06D277309A3A8CA6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1AFAD7880F651FEA356E5B3 /* Pods-FirebaseAuthDemo.debug.xcconfig */,
+				FD5F479340A0FBD323CB969C /* Pods-FirebaseAuthDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37DBBB4867F8E540289B45AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C38FA17887058B359A5ABF9 /* libPods-FirebaseAuthDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A906C78E231CDB850055F76C /* Tones */ = {
+			isa = PBXGroup;
+			children = (
+				A906C799231CDB9A0055F76C /* bird_tone.mp3 */,
+				A906C79A231CDB9A0055F76C /* dj_snake.mp3 */,
+				A906C79D231CDB9B0055F76C /* hiyonat.mp3 */,
+				A906C792231CDB980055F76C /* iphone_7_remix.mp3 */,
+				A906C79B231CDB9A0055F76C /* iphone_dhol.mp3 */,
+				A906C78F231CDB980055F76C /* iphone_tone1.mp3 */,
+				A906C79E231CDB9B0055F76C /* iphone_tone2.mp3 */,
+				A906C790231CDB980055F76C /* iphone_tone3.mp3 */,
+				A906C794231CDB990055F76C /* iphone_tone4.mp3 */,
+				A906C79C231CDB9A0055F76C /* lai_lai.mp3 */,
+				A906C797231CDB990055F76C /* mission_impossible.mp3 */,
+				A906C795231CDB990055F76C /* naalo_chilipi.mp3 */,
+				A906C796231CDB990055F76C /* nokia_n91.mp3 */,
+				A906C791231CDB980055F76C /* ooh_aina_nai.mp3 */,
+				A906C79F231CDB9B0055F76C /* romantic_tone.mp3 */,
+				A906C793231CDB980055F76C /* run_away.mp3 */,
+				A906C798231CDB9A0055F76C /* shayari_ringtone.mp3 */,
+			);
+			path = Tones;
+			sourceTree = "<group>";
+		};
 		A907F7C3231243F100FA39FE = {
 			isa = PBXGroup;
 			children = (
 				A907F7CE231243F100FA39FE /* FirebaseAuthDemo */,
 				A907F7CD231243F100FA39FE /* Products */,
+				2AF926E06D277309A3A8CA6E /* Pods */,
+				37DBBB4867F8E540289B45AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +146,18 @@
 		A907F7CE231243F100FA39FE /* FirebaseAuthDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A906C78E231CDB850055F76C /* Tones */,
 				A907F7CF231243F100FA39FE /* AppDelegate.swift */,
-				A907F7D1231243F100FA39FE /* ViewController.swift */,
+				A907F7D1231243F100FA39FE /* LoginViewController.swift */,
+				A907F7E623125E7E00FA39FE /* GoogleService-Info.plist */,
 				A907F7D3231243F100FA39FE /* Main.storyboard */,
 				A907F7D9231243F300FA39FE /* Assets.xcassets */,
 				A907F7DB231243F300FA39FE /* LaunchScreen.storyboard */,
 				A907F7DE231243F300FA39FE /* Info.plist */,
 				A907F7D6231243F100FA39FE /* FirebaseAuthDemo.xcdatamodeld */,
+				A907F7E8231275FB00FA39FE /* MainViewController.swift */,
+				A907F7EA2312922500FA39FE /* ToneListViewController.swift */,
+				A935F0AD2312F82F00401DA3 /* CustomCell.swift */,
 			);
 			path = FirebaseAuthDemo;
 			sourceTree = "<group>";
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A907F7E1231243F300FA39FE /* Build configuration list for PBXNativeTarget "FirebaseAuthDemo" */;
 			buildPhases = (
+				2C5AC1DDECB87E0205B22916 /* [CP] Check Pods Manifest.lock */,
 				A907F7C8231243F100FA39FE /* Sources */,
 				A907F7C9231243F100FA39FE /* Frameworks */,
 				A907F7CA231243F100FA39FE /* Resources */,
+				B6A1E4B714D048CBCCDDC559 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +222,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A906C7A6231CDB9B0055F76C /* naalo_chilipi.mp3 in Resources */,
+				A906C7AC231CDB9B0055F76C /* iphone_dhol.mp3 in Resources */,
 				A907F7DD231243F300FA39FE /* LaunchScreen.storyboard in Resources */,
+				A906C7B0231CDB9B0055F76C /* romantic_tone.mp3 in Resources */,
+				A906C7A2231CDB9B0055F76C /* ooh_aina_nai.mp3 in Resources */,
+				A906C7A5231CDB9B0055F76C /* iphone_tone4.mp3 in Resources */,
+				A906C7A7231CDB9B0055F76C /* nokia_n91.mp3 in Resources */,
+				A906C7AD231CDB9B0055F76C /* lai_lai.mp3 in Resources */,
+				A906C7AA231CDB9B0055F76C /* bird_tone.mp3 in Resources */,
+				A906C7AE231CDB9B0055F76C /* hiyonat.mp3 in Resources */,
+				A906C7A1231CDB9B0055F76C /* iphone_tone3.mp3 in Resources */,
+				A906C7A4231CDB9B0055F76C /* run_away.mp3 in Resources */,
+				A907F7E723125E7E00FA39FE /* GoogleService-Info.plist in Resources */,
+				A906C7AF231CDB9B0055F76C /* iphone_tone2.mp3 in Resources */,
+				A906C7AB231CDB9B0055F76C /* dj_snake.mp3 in Resources */,
+				A906C7A0231CDB9B0055F76C /* iphone_tone1.mp3 in Resources */,
+				A906C7A3231CDB9B0055F76C /* iphone_7_remix.mp3 in Resources */,
+				A906C7A8231CDB9B0055F76C /* mission_impossible.mp3 in Resources */,
 				A907F7DA231243F300FA39FE /* Assets.xcassets in Resources */,
+				A906C7A9231CDB9B0055F76C /* shayari_ringtone.mp3 in Resources */,
 				A907F7D5231243F100FA39FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C5AC1DDECB87E0205B22916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseAuthDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A1E4B714D048CBCCDDC559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthDemo/Pods-FirebaseAuthDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthDemo/Pods-FirebaseAuthDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseAuthDemo/Pods-FirebaseAuthDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A907F7C8231243F100FA39FE /* Sources */ = {
@@ -139,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A907F7D8231243F100FA39FE /* FirebaseAuthDemo.xcdatamodeld in Sources */,
-				A907F7D2231243F100FA39FE /* ViewController.swift in Sources */,
+				A907F7D2231243F100FA39FE /* LoginViewController.swift in Sources */,
 				A907F7D0231243F100FA39FE /* AppDelegate.swift in Sources */,
+				A907F7E9231275FB00FA39FE /* MainViewController.swift in Sources */,
+				A935F0AF2312F82F00401DA3 /* CustomCell.swift in Sources */,
+				A907F7EB2312922500FA39FE /* ToneListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +444,7 @@
 		};
 		A907F7E2231243F300FA39FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AFAD7880F651FEA356E5B3 /* Pods-FirebaseAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +457,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhav.FirebaseAuthDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A907F7E3231243F300FA39FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5F479340A0FBD323CB969C /* Pods-FirebaseAuthDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhav.FirebaseAuthDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
